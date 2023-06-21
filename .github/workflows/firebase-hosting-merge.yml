@@ -9,6 +9,7 @@ name: Deploy to Firebase Hosting on merge
 
 env:
   VITE_NISIM: david
+  VITE_API_HOST: https://weary-puce-stole.cyclic.app
 
 jobs:
   build_and_deploy:
